@@ -1,0 +1,13 @@
+convertEPSG3857ToWGS84GEO 전부 제거 및 관련 코드 수정
+
+js코드 분할했는데
+분할하니까 P point에서 0번째 것만 불러옴,,,
+-> 그래서 sync 문제인가 해서 async await 해봤는데 아예 첫번째 P point에서 막힘,,,
+
+1. findBtn에서 ajax의 success 안에 있는 함수 -> findBtn.ejs에 옮김
+2. findLoc 함수 -> findLoc.ejs에 옮김
+3. searchBtn에서 ajax의 success 안에 있는 함수 -> searchBtn.ejs에 옮김
+
+tmp.ejs에 /분할한 뒤 asnyc await 적용한 코드/ 담아놓음
+tmp2.ejs에 /convertEPSG3857ToWGS84GEO 전부 제거 및 관련 코드 수정한 코드/ 담아놓음
+tmp3.ejs에 /분할한 코드/ 담아놓음

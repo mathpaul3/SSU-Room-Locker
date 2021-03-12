@@ -1,0 +1,11 @@
+1. Express Generator (생성기)
+1) 설치 : npm i -g express-generator
+2) express --view=ejs/pug 51_music
+3) npm install
+4) npm start
+
+2. npm vs npx
+1) npm : 모듈 의존성에 따라 모든 패키지를 로컬에 설치하게 됨
+2) npx : 설치가 아니라 실행을 위한 도구
+-> node -> deno (npm X, package.json X, node_modules X)
+
