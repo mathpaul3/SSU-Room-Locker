@@ -4,9 +4,6 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-
 var app = express();
 
 // view engine setup
@@ -19,8 +16,15 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
+// 메인페이지/로그인
+app.use('/', require('./routes/index'));
+
+// 메인페이지+사물함(쿠키)/건물/(로그인필요)신청화면
+// 메인페이지+강의실(쿠키)/건물/(로그인필요)신청화면
+// app.use('/main', require('./routes/index'));
+
+// app.use('/users', require('./routes/users'));
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
