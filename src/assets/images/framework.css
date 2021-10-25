@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* 팝업 : 자동로그아웃 */
+.spopContainer {position:fixed; top:50%; left:50%; margin-left:-175px; margin-top:-175px; width:370px; z-index:90100; border-radius:5px;}
+.spopContainer .spopTitle {padding:12px; background-color:#009bcb;border-top-left-radius:5px;border-top-right-radius:5px;}
+.spopContainer .spopTitle h3 {font-size:.95rem; font-weight:normal; color:#FFF;}
+.spopContainer .spopMessage {padding:30px; background-color:#FFF;}
+
+.spopContainer .spopMessage li.stxt2 {padding:25px 0; text-align:center;}
+.spopContainer .spopMessage li.stxt2 h4 {font-size:.85rem; font-weight:600;}
+
+.spopContainer .spopMessage p.sbtnArea {text-align:center;}
+.spopContainer .spopMessage p.sbtnArea button {padding:10px 20px; border-radius:3px;border:0;}
+.spopContainer .spopMessage p.sbtnArea button.sbtnG {background-color:#009bcb; color:#FFF;}
+.spopContainer .spopMessage p.sbtnArea button.sbtnG:hover {background-color:#00bfff;}
+.spopContainer .spopMessage p.sbtnArea button.sbtnW {background-color:#FFF; border:1px solid #c4c4c4;}
+.spopContainer .spopMessage p.sbtnArea button.sbtnW:hover {background-color:#f4f4f4;}
+
+.slogoutModalDiv {position:fixed;left:0;right:0;top:0;bottom:0;overflow:hidden;z-index:90000;display:none;width: 100%;height: 100%;}
+.slogoutModalDiv iframe {width:100%; height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50);}

@@ -1,0 +1,30 @@
+/**
+* Copyright (c) 2012-2020 SAP SE or an SAP affiliate company. All rights reserved.
+*
+* Theming Engine 1.58.1
+* data:{"Path": "Portal.prtl_std.ssu01_ep.sf3", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_corbu","sap_goldreflection","baseTheme"], "Version": { "Build":"7.50.20.0.20210702201235", "Source": "7.50.20.0", "Engine": "1.58.1"}}
+*/
+
+.sapThemeMetaData-Portal-prtl_std{background-image: url('data:text/plain;utf-8,{"Path": "Portal.prtl_std.ssu01_ep.sf3", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_corbu","sap_goldreflection","baseTheme"], "Version": { "Build":"7.50.20.0.20210702201235", "Source": "7.50.20.0", "Engine": "1.58.1"}}');}
+
+/*Base.baseLib.baseTheme.base*/@font-face{font-family:'72';font-style:normal;font-weight:300;src:local('72-Light'),none format('woff2'),none format('woff')}@font-face{font-family:'72';font-style:normal;font-weight:400;src:local('72'),none format('woff2'),none format('woff')}@font-face{font-family:'72';font-style:normal;font-weight:700;src:local('72-Bold'),none format('woff2'),none format('woff')}@font-face{font-family:'72full';font-style:normal;font-weight:300;src:none format('woff2'),none format('woff')}@font-face{font-family:'72full';font-style:normal;font-weight:400;src:none format('woff2'),none format('woff')}@font-face{font-family:'72full';font-style:normal;font-weight:700;src:none format('woff2'),none format('woff')}@font-face{font-family:'72-Light';src:local('72-Light'),none format('woff2'),none format('woff')}@font-face{font-family:'72-Lightfull';src:none format('woff2'),none format('woff')}@font-face{font-family:'72-Bold';src:local('72-Bold'),none format('woff2'),none format('woff')}@font-face{font-family:'72-Boldfull';src:none format('woff2'),none format('woff')}@font-face{font-family:'72Mono';src:local('72Mono'),none format('woff2'),none format('woff')}@font-face{font-family:'72Monofull';src:none format('woff2'),none format('woff')}@font-face{font-family:'72Mono-Bold';src:local('72Mono-Bold'),none format('woff2'),none format('woff')}@font-face{font-family:'72Mono-Boldfull';src:none format('woff2'),none format('woff')}.sapSvgIconPositive{fill:#007833!important}.sapSvgIconCritical{fill:#f0ab00!important}.sapSvgIconNegative{fill:#cc1919!important}
+/*Portal.baseLib.baseTheme.base*/
+/*Portal.baseLib.baseTheme.sf3*/
+/*Portal.prtl_std.baseTheme.base*/
+/*Portal.prtl_std.baseTheme.sf3*/.prtlBody{margin:0 0 0 0;background-color:#ffffff}.prtlHeaderCon{margin:0 0 0 0;padding:0 0 0 0}.prtlPageConL{margin:0 0 0 0;padding:11px 1px 0px 13px}.prtlPageConM{margin:0px 0px 0 0;padding:11px 1 0 6px}.prtlPageConR{margin:0 0 0 0;padding:11px 1 0 6px}.prtlPageConF{margin:0 0 0 0;padding:0 0 0 0}.prtlPrtlFullPageAppBody{background-color:#ffffff;margin:0 0 0 0;padding:0 0 0 0}.prtlFocus{margin-left:-1}*{outline:none}
+/*Base.baseLib.sap_goldreflection.base*/
+/*Portal.baseLib.sap_goldreflection.base*/
+/*Portal.baseLib.sap_goldreflection.sf3*/
+/*Portal.prtl_std.sap_goldreflection.base*/
+/*Portal.prtl_std.sap_goldreflection.sf3*/
+/*Base.baseLib.sap_corbu.base*/
+/*Portal.baseLib.sap_corbu.base*/
+/*Portal.baseLib.sap_corbu.sf3*/
+/*Portal.prtl_std.sap_corbu.base*/
+/*Portal.prtl_std.sap_corbu.sf3*/
+/*Base.baseLib.ssu01_ep.custom*/
+/*Base.baseLib.ssu01_ep.base*/
+/*Portal.baseLib.ssu01_ep.base*/
+/*Portal.baseLib.ssu01_ep.sf3*/
+/*Portal.prtl_std.ssu01_ep.base*/
+/*Portal.prtl_std.ssu01_ep.sf3*/
