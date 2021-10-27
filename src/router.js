@@ -14,12 +14,46 @@ const routes = [
         component: () => import("./views/usaint"),
         children: [
             {
-                path: "/usaint/home",
+                path: "home",
                 component: () => import("./views/usaint/home")
             },
             {
-                path: "registration",
-                component: () => import("./views/usaint/registration")
+                path: "facility",
+                component: () => import("./views/usaint/facility/"),
+                children: [
+                    {
+                        path: "maintenance",
+                        component: () => import("./views/usaint/facility/maintenance/"),
+                        children: [
+                            {
+                                path: "report",
+                                component: () => import("./views/usaint/facility/maintenance/report")
+                            },
+                            {
+                                path: "report-check",
+                                component: () => import("./views/usaint/facility/maintenance/report-check")
+                            }
+                        ]
+                    },
+                    {
+                        path: "apply",
+                        component: () => import("./views/usaint/facility/apply"),
+                        children: [
+                            {
+                                path: "locker",
+                                component: () => import("./views/usaint/facility/apply/locker")
+                            },
+                            {
+                                path: "room",
+                                component: () => import("./views/usaint/facility/apply/room")
+                            },
+                            {
+                                path: "field",
+                                component: () => import("./views/usaint/facility/apply/field")
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }

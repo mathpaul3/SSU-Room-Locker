@@ -1,5 +1,5 @@
 <template>
-  <div id="no_content">This Page will not be embodied!</div>
+  <div id="no_content">Room Apply</div>
 </template>
 
 <style>
