@@ -19,12 +19,12 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 (오픈소스 기초설계 과목의 과제로 사용)
 
 ## 기존의 u-SAINT 장소사용 신청 페이지
-![기존의 u-SAINT 장소사용 신청 페이지](./doc/기존uSAINT_사용신청_대표그림.png)
+![기존의 u-SAINT 장소사용 신청 페이지](./doc/ScreenShots/기존uSAINT_사용신청_대표그림.png)
 
 ## 개선안
-![사물함_사용신청_대표그림](./doc/사물함_사용신청_대표그림.png)
-![강의실_사용신청_대표그림](./doc/강의실_사용신청_대표그림.png)
-![운동장_사용신청_대표그림](./doc/운동장_사용신청_대표그림.png)
+![사물함_사용신청_대표그림](./doc/ScreenShots/사물함_사용신청_대표그림.png)
+![강의실_사용신청_대표그림](./doc/ScreenShots/강의실_사용신청_대표그림.png)
+![운동장_사용신청_대표그림](./doc/ScreenShots/운동장_사용신청_대표그림.png)
 
 
 ## 본 Markdown 파일에서 사용한 Markdown 문법
